@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+.uv/
+dist/
+build/
+*.egg-info/
+uv.lock
+
+# OS
+.DS_Store
+
+# Obsidian / Personal Notes
+NEXT.md
+Crawling TIREX.md
+CHANGELOG.md
+
+# Project Output
+output/
+temp/
+logs/
+scrapy.log

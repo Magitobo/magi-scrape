@@ -1,0 +1,24 @@
+[project]
+name = "magiscrape"
+version = "0.1.0"
+description = "MagiScrape is the fastest web-scraping engine for the Magitobo ecosystem. Optimized for RAG pipelines and JavaScript-heavy documentation."
+readme = "README.md"
+authors = [
+    { name = "Magitobo" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "scrapy>=2.11.0",
+    "scrapy-playwright>=0.0.35",
+    "playwright>=1.40.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.scripts]
+magiscrape = "magiscrape.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+]

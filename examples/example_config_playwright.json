@@ -1,0 +1,18 @@
+{
+  "collection_name": "Documentation Collection 1",
+  "urls": [
+    {
+      "name": "User Guide",
+      "start_url": "https://example-docs.com/guide/",
+      "allowed_domains": ["example-docs.com"],
+      "allow_patterns": ["/guide/.*"],
+      "deny_patterns": [],
+      "depth_limit": 2,
+      "use_playwright": true
+    }
+  ],
+  "global_settings": {
+    "download_delay": 2,
+    "autothrottle_enabled": true
+  }
+}
