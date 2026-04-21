@@ -157,12 +157,12 @@ def sanitize_filename(filename):
     # Remove directory traversal attempts
     filename = os.path.basename(filename)
 
-    # Replace invalid characters with underscores
-    invalid_chars = r'[<>:"/\\|?*\x00-\x1f]'
-    sanitized = re.sub(invalid_chars, '_', filename)
-
     # Remove leading/trailing dots and spaces
-    sanitized = sanitized.strip('. ')
+    filename = filename.strip('. ')
+
+    # Replace invalid characters and spaces with underscores
+    invalid_chars = r'[<>:"/\\|?*\x00-\x1f\s]'
+    sanitized = re.sub(invalid_chars, '_', filename)
 
     # Ensure filename isn't empty after sanitization
     if not sanitized:

@@ -1,0 +1,18 @@
+{
+  "collection_name": "Test Complex Quotes",
+  "urls": [
+    {
+      "name": "Quotes JS",
+      "start_url": "http://quotes.toscrape.com/js/",
+      "allowed_domains": ["quotes.toscrape.com"],
+      "allow_patterns": [".*"],
+      "deny_patterns": [],
+      "depth_limit": 1,
+      "use_playwright": true
+    }
+  ],
+  "global_settings": {
+    "download_delay": 0.5,
+    "autothrottle_enabled": true
+  }
+}

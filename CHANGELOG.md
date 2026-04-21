@@ -12,7 +12,7 @@
 - **Improved:** Test organization with shared fixtures in `conftest.py`
 
 ## [2025-09-20] - Complete Crawler Rewrite
-- **Replaced:** `crawl_scrapy_ccs_docs.py` with new `crawl_scrapy_playwright.py`
+- **Replaced:** `legacy_crawler.py` with new `crawl_scrapy_playwright.py`
 - **Enhanced:** Scrapy + Playwright integration for JavaScript-rendered content
 - **Added:** Comprehensive documentation with usage examples
 - **Improved:** Configuration-based crawling with JSON configs
@@ -21,7 +21,7 @@
 - **Improved:** File naming conventions and conflict resolution
 
 ## [2025-09-19] - Enhanced Playwright Integration
-- **Added**: Playwright-based web scraping for JavaScript-heavy pages (ARM documentation)
+- **Added**: Playwright-based web scraping for JavaScript-heavy pages (technical documentation sites)
 - **Replaced**: Scrapy-splash approach with Playwright for better reliability
 - **Improved**: JavaScript execution using real browser engines
 - **Benefits**:
@@ -30,22 +30,22 @@
   - Built-in support for modern web technologies
   - Lower resource usage
 
-## [2025-01-04] - TI Tirex Crawling Strategy Expansion
-- **Added**: Detailed analysis of three crawling approaches for TI documentation
-- **Documented**: Option A (Tirex sitemap), Option B (Selenium rendering), Option C (Direct content crawling)
+## [2025-01-04] - documentation platforms Crawling Strategy Expansion
+- **Added**: Detailed analysis of three crawling approaches for vendor documentation
+- **Documented**: Option A (documentation hub), Option B (Selenium rendering), Option C (Direct content crawling)
 - **Identified**: Critical issues with Googlebot crawling - links return "OK" instead of content
 - **Planned**: Context-aware crawling with breadcrumb hierarchy tracking
-- **Listed**: Specific TI resources for crawling (CCS User's Guide, Academy content, YouTube transcripts)
+- **Listed**: Specific vendor resources for crawling (IDE documentation, Academy content, YouTube transcripts)
 - **Analyzed**: Metadata reliability and context precision tradeoffs for RAG systems
 
 ## [2024-11-29] - Documentation and Strategy Research
-- **Added**: Initial crawling strategy documentation for TI Tirex platform
-- **Researched**: TI Tirex API endpoints and sitemap structure
+- **Added**: Initial crawling strategy documentation for documentation platforms platform
+- **Researched**: documentation platforms API endpoints and sitemap structure
 - **Analyzed**: Context isolation strategies for different SDK versions and product lines
 - **Documented**: Metadata extraction approaches (key-value vs text-based discovery)
-- **Noted**: GitHub TI repositories as alternative source with limitations
+- **Noted**: vendor repositories as alternative source with limitations
 
 ## [2024-09-25] - Initial Implementation
-- **Added**: First crawler implementation with `crawl_scrapy_ccs_docs.py`
+- **Added**: First crawler implementation with `legacy_crawler.py`
 - **Implemented**: Basic Scrapy-based web scraping functionality
 - **Established**: Foundation for documentation crawling system

@@ -14,10 +14,10 @@ uv.lock
 .DS_Store
 
 # Obsidian / Personal Notes
+AGENTS.md
 NEXT.md
-Crawling TIREX.md
 CHANGELOG.md
-
+Crawling TIREX.md
 # Project Output
 output/
 temp/

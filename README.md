@@ -1,6 +1,6 @@
 # MagiScrape
 
-MagiScrape is the fastest web-scraping engine for the Magitobo ecosystem. It is a highly configurable web crawler built on the Scrapy framework, enhanced with `scrapy-playwright` for JavaScript-heavy technical documentation.
+MagiScrape is a highly configurable web crawler built on the Scrapy framework, enhanced with `scrapy-playwright` for JavaScript-heavy technical documentation.
 
 ## Key Features
 
