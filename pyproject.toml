@@ -1,7 +1,7 @@
 [project]
 name = "magiscrape"
 version = "0.1.0"
-description = "MagiScrape is the fastest web-scraping engine for the Magitobo ecosystem. Optimized for RAG pipelines and JavaScript-heavy documentation."
+description = "Scrape for JavaScript-heavy documentation."
 readme = "README.md"
 authors = [
     { name = "Magitobo" }
